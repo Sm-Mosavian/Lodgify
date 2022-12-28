@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1A24459F-C4FF-46D3-A857-82D0686A48CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{76DE2687-F1B1-4D45-8A65-6D56B94F7E57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{43121FA2-A57A-4BDD-B64C-0DB53B2F58B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A03AB5AD-536E-4970-AC95-FA567267299B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4BEA39EA-C1F2-4E1A-B5DA-619C2D056E9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lodgify1.VacationRental.Domain", "src\Lodgify1.VacationRental.Domain\Lodgify1.VacationRental.Domain.csproj", "{E442175E-AC05-46A4-A03F-F9CB044D711E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lodgify1.VacationRental.Application", "src\Lodgify1.VacationRental.Application\Lodgify1.VacationRental.Application.csproj", "{1741BC9C-F7B0-447E-89A5-7AA5C37E4E21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lodgify1.VacationRental.Presistence", "src\Lodgify1.VacationRental.Presistence\Lodgify1.VacationRental.Presistence.csproj", "{53D4F364-49A9-43F3-BE21-1377B188B816}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lodgify1.VacationRental.Api", "src\Lodgify1.VacationRental.Api\Lodgify1.VacationRental.Api.csproj", "{30DF6E8A-251B-4932-98DE-3578B8B5C21C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lodgify1.VacationRental.Application.UnitTests", "test\Lodgify1.VacationRental.UnitTests\Lodgify1.VacationRental.Application.UnitTests.csproj", "{47E20059-36BE-4628-A5B4-2EFD7320211B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lodgify1.VacationRental.Api.FunctionalTests", "test\Lodgify1.VacationRental.Api.FunctionalTests\Lodgify1.VacationRental.Api.FunctionalTests.csproj", "{E0F56A3A-5237-45BB-B288-BB460622F40E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E442175E-AC05-46A4-A03F-F9CB044D711E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E442175E-AC05-46A4-A03F-F9CB044D711E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E442175E-AC05-46A4-A03F-F9CB044D711E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E442175E-AC05-46A4-A03F-F9CB044D711E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1741BC9C-F7B0-447E-89A5-7AA5C37E4E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1741BC9C-F7B0-447E-89A5-7AA5C37E4E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1741BC9C-F7B0-447E-89A5-7AA5C37E4E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1741BC9C-F7B0-447E-89A5-7AA5C37E4E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D4F364-49A9-43F3-BE21-1377B188B816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D4F364-49A9-43F3-BE21-1377B188B816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D4F364-49A9-43F3-BE21-1377B188B816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D4F364-49A9-43F3-BE21-1377B188B816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DF6E8A-251B-4932-98DE-3578B8B5C21C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DF6E8A-251B-4932-98DE-3578B8B5C21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DF6E8A-251B-4932-98DE-3578B8B5C21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DF6E8A-251B-4932-98DE-3578B8B5C21C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E20059-36BE-4628-A5B4-2EFD7320211B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E20059-36BE-4628-A5B4-2EFD7320211B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E20059-36BE-4628-A5B4-2EFD7320211B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E20059-36BE-4628-A5B4-2EFD7320211B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F56A3A-5237-45BB-B288-BB460622F40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F56A3A-5237-45BB-B288-BB460622F40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F56A3A-5237-45BB-B288-BB460622F40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F56A3A-5237-45BB-B288-BB460622F40E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43121FA2-A57A-4BDD-B64C-0DB53B2F58B7} = {1A24459F-C4FF-46D3-A857-82D0686A48CA}
+		{A03AB5AD-536E-4970-AC95-FA567267299B} = {1A24459F-C4FF-46D3-A857-82D0686A48CA}
+		{4BEA39EA-C1F2-4E1A-B5DA-619C2D056E9B} = {1A24459F-C4FF-46D3-A857-82D0686A48CA}
+		{E442175E-AC05-46A4-A03F-F9CB044D711E} = {A03AB5AD-536E-4970-AC95-FA567267299B}
+		{1741BC9C-F7B0-447E-89A5-7AA5C37E4E21} = {A03AB5AD-536E-4970-AC95-FA567267299B}
+		{53D4F364-49A9-43F3-BE21-1377B188B816} = {4BEA39EA-C1F2-4E1A-B5DA-619C2D056E9B}
+		{30DF6E8A-251B-4932-98DE-3578B8B5C21C} = {43121FA2-A57A-4BDD-B64C-0DB53B2F58B7}
+		{47E20059-36BE-4628-A5B4-2EFD7320211B} = {76DE2687-F1B1-4D45-8A65-6D56B94F7E57}
+		{E0F56A3A-5237-45BB-B288-BB460622F40E} = {76DE2687-F1B1-4D45-8A65-6D56B94F7E57}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B530176-CF72-4B34-8FBF-D935FF383791}
+	EndGlobalSection
+EndGlobal
